@@ -154,7 +154,8 @@ a:focus-visible {
 }
 
 .hero-heading {
-  align-self: center;
+  align-self: start;
+  margin-top: 18px;
 }
 
 .eyebrow,
@@ -210,7 +211,8 @@ h1 {
 
 .hero-copy {
   max-width: 470px;
-  align-self: center;
+  align-self: start;
+  margin-top: 18px;
   color: var(--muted);
   font-size: 14px;
 }
@@ -221,7 +223,7 @@ h1 {
 
 .hero-copy .intro {
   color: var(--text);
-  font-size: clamp(18px, 2vw, 21px);
+  font-size: clamp(14px, 2vw - 2px, 16px);
   line-height: 1.55;
 }
 
